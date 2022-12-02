@@ -1,8 +1,5 @@
+import Home from "../components/Home";
 
-export default function Home() {
-    return (
-        <div>
-            메인
-        </div>
-    );
+export default function Index() {
+    return <Home />;
 }
