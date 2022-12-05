@@ -1,8 +1,13 @@
+import ImageGallery from "./ImageGallery";
+import MainItem from "./MainItem";
+
 export default function Home() {
     return (
         <div>
             <div className="bg-amber-400">가나다</div>
             메인페이지
+            <MainItem />
+            <ImageGallery />
             <FullBanner />
             <SlideBanner />
             <ImageBanner />

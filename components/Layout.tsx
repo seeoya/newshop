@@ -5,7 +5,7 @@ export default function Layout({ children }: any) {
     return (
         <>
             <Header />
-            <div className="wrap">{children}</div>
+            <div className="container mx-auto">{children}</div>
             <SideButton />
             <Footer />
         </>
