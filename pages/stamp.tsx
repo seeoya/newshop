@@ -58,7 +58,7 @@ function Year(params: any) {
             <h4>{year}년도</h4>
             <div className="flex">
                 {arr.map((item) => {
-                    return <Month year={item.year} month={item.month} day={item.day} />;
+                    return <Month key={item.year+item.month+item.day} year={item.year} month={item.month} day={item.day} />;
                 })}
             </div>
         </div>
