@@ -11,10 +11,10 @@ export default function ImagePage() {
         <div className="flex flex-wrap">
             {imgList.map((item, index) => {
                 return (
-                <span className="relative w-[100px] h-[300px]">
-                
-                <Image key={index} src={item} layout="fill" quality={100} alt="" className="object-cover" />
-                </span>);
+                    <span key={index} className="relative w-[100px] h-[300px]">
+                        <Image key={index} src={item} layout="fill" quality={100} alt="" className="object-cover" />
+                    </span>
+                );
             })}
         </div>
     );
