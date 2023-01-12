@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import { Navigation, Pagination, Scrollbar } from "swiper";
 import { useEffect, useState } from "react";
 
-export default function App() {
+export default function SliderBanner() {
     return (
         <div>
             <Swiper
