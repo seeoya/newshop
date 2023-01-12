@@ -11,7 +11,8 @@ function StyleTest() {
                 <button
                     className="p-3 border-rose-900 border-2 bg-pink-400 hover:bg-violet-400"
                     onClick={() => {
-                        document.querySelector("#dialog").showModal();
+                        let dialog = document.querySelector("#dialog") as HTMLDialogElement;
+                        dialog.showModal();
                     }}
                 >
                     다이얼로그 버튼
