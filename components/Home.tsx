@@ -4,10 +4,7 @@ import MainItem from "./MainItem";
 export default function Home() {
     return (
         <div>
-            <div className="bg-amber-400">가나다</div>
-            메인페이지
             <MainItem />
-            <ImageGallery />
             <FullBanner />
             <SlideBanner />
             <ImageBanner />
@@ -16,12 +13,12 @@ export default function Home() {
 }
 
 function FullBanner() {
-    return <div>풀배너</div>;
+    return <div className="bg-red-100">풀배너</div>;
 }
 
 function SlideBanner() {
-    return <div>슬라이드배너</div>;
+    return <div className="bg-blue-100">슬라이드배너</div>;
 }
 function ImageBanner() {
-    return <div>이미지 배너</div>;
+    return <div className="bg-green-100">이미지 배너</div>;
 }
