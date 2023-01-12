@@ -1,10 +1,14 @@
+import Category from "./Category";
 import ImageGallery from "./ImageGallery";
 import MainItem from "./MainItem";
+import Preview from "./Prewview";
 
 export default function Home() {
     return (
         <div>
             <MainItem />
+            <Preview />
+            <Category />
             <FullBanner />
             <SlideBanner />
             <ImageBanner />
