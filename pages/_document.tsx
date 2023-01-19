@@ -6,8 +6,8 @@ export default function Document() {
     return (
         <Html>
             <Head>
-                <title>가나다라</title>
-                <meta name="description" content="newshop desc" />
+                {/* <title>가나다라</title>
+                <meta name="description" content="newshop desc" /> */}
             </Head>
             <body>
                 <Main />
